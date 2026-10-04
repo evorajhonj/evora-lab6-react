@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: static
+    name: evora-lab6-products
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false
