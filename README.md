@@ -4,6 +4,10 @@ Jhon Joseph Evora · BSIT 3-F2 · MCC2024-00076
 
 React frontend for the LavaLust Product API. The frontend has login, product list, add, edit, delete, and logout. `App` keeps the state; `Login`, `ProductForm`, and `ProductList` receive data and functions through props. `useEffect` loads products after login.
 
+Frontend: https://evora-lab6-products.onrender.com
+
+API: https://evora-lab6-api.onrender.com/index.php/api
+
 ## Run
 
 ```powershell
